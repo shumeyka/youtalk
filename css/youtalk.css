@@ -742,6 +742,10 @@ h1{
         overflow-x: scroll;
     }
 
+    .date{
+        top: 110px;
+    }
+
     .top-slides{
         margin-bottom: 16px;
     }
@@ -786,6 +790,11 @@ h1{
 
     .button-more button{
         margin: 28px 100px 59px;
+    }
+
+    .intro-four{
+        max-width: 340px;
+        margin-bottom: 49px;
     }
 
     .footer{
