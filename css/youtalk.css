@@ -13,10 +13,6 @@ body{
     margin: 0 auto;
 }
 
-.header{
-    height: 76px;
-
-}
 
 .header .container{
     height: inherit;
@@ -61,6 +57,13 @@ body{
 
 .button-two{
     display: none;
+}
+
+.themes-slile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
 }
 
 main{
@@ -600,7 +603,9 @@ h1{
 
     .button-two{
         display: flex;
-        padding: 11px;
+        margin: 18px 20px;
+        border: none;
+        background-color: transparent;
     }
 
     .header-logo{
@@ -729,6 +734,10 @@ h1{
         margin: 19px 24px
     }
 
+    .button-two{
+        margin:16px 24px;
+    }
+
     .main-address{
         margin: 16px 0 32px 0;
     }
@@ -834,7 +843,7 @@ h1{
     }
 
     .footer-search button{
-        right: 0px;
+        right: -1px;
     }
 
     .footer-logo{
@@ -864,6 +873,10 @@ h1{
 
     main{
         margin-left: 16px;
+    }
+
+    .button-two{
+        margin: 8px;
     }
 
     .top-slide-left, .top-slide-right{
