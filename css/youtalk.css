@@ -87,11 +87,16 @@ h1{
 }
 
 .themes{
-    overflow-x:auto ;
+    height: 37px;
+    align-items: center;
     margin-bottom:24px ;
     display: flex;
     flex-flow: row nowrap;
     white-space: nowrap;
+}
+
+.themes-smile-one{
+    margin-left: 2px;
 }
 
 .themes button{
@@ -477,11 +482,11 @@ h1{
     }
 
     .themes{
-        display: block;
+      
     }
 
     .themes-eight, .themes-nine{
-        margin-top: 14px;
+       
     }
 
     .top-slide-left, .top-slide-right{
