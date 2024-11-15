@@ -59,7 +59,7 @@ body{
     display: none;
 }
 
-.themes-slile{
+.themes-smile-one, .themes-smile-two{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -87,9 +87,11 @@ h1{
 }
 
 .themes{
+    overflow-x:auto ;
     margin-bottom:24px ;
     display: flex;
     flex-flow: row nowrap;
+    white-space: nowrap;
 }
 
 .themes button{
@@ -746,9 +748,27 @@ h1{
         margin-bottom:24px;
     }
 
+    .themes-smile-one{
+        margin-left: 3px;
+    }
+
     .themes{
+        align-items: center;
+        height: 50px;
+        white-space: nowrap;
         display: flex;
-        overflow-x: scroll;
+        overflow-x: auto;
+    }
+
+    .themes button{
+        align-items: center;
+        display: flex;
+        height: 40px;
+        white-space: nowrap;
+    }
+
+    .themes-eight, .themes-nine{
+        margin-top: 0px;
     }
 
     .date{
