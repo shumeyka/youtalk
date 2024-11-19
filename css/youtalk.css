@@ -91,7 +91,6 @@ h1{
     align-items: center;
     margin-bottom:24px ;
     display: flex;
-    flex-flow: row nowrap;
     white-space: nowrap;
 }
 
@@ -482,11 +481,12 @@ h1{
     }
 
     .themes{
-      
+      flex-wrap: wrap;
+      margin-bottom: 55px;
     }
 
-    .themes-eight, .themes-nine{
-       
+    .themes button{
+       margin-bottom: 7px;
     }
 
     .top-slide-left, .top-slide-right{
@@ -763,9 +763,12 @@ h1{
         white-space: nowrap;
         display: flex;
         overflow-x: auto;
+        flex-wrap: nowrap;
+        margin-bottom: 15px;
     }
 
     .themes button{
+        margin-bottom: 0px;
         align-items: center;
         display: flex;
         height: 40px;
