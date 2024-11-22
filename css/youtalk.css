@@ -70,6 +70,12 @@ main{
     margin: 0 120px;
 }
 
+.main-background{
+   position: absolute;
+   right: 0px;
+   top: 410px;
+}
+
 .main-address{
     margin:16px 0 31px 6px 
 }
@@ -116,7 +122,12 @@ h1{
     cursor: pointer;
 }
 
+.top-slides{
+    position: relative;
+}
+
 .top-slide-right{
+    background-color: white;
     margin-right: 120px;
     max-width: 588px;
     width: 100%;
@@ -126,6 +137,7 @@ h1{
 }
 
 .top-slide-left{
+    background-color: white;
     margin-right:24px ;
     max-width: 588px;
     width: 100%;
@@ -474,6 +486,10 @@ h1{
 
     main{
         margin: 0 32px;
+    }
+
+    .main-background{
+        display: none;
     }
 
     .main-address{
