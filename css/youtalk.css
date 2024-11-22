@@ -66,6 +66,10 @@ body{
     gap: 5px;
 }
 
+.hr-header{
+    opacity: 0.3;
+}
+
 main{
     margin: 0 120px;
 }
@@ -358,6 +362,7 @@ h1{
 
 .footer-menu-one li{
     padding-bottom:16px;
+    white-space: nowrap;
 }
 
 .footer-menu-one a{
@@ -442,7 +447,7 @@ h1{
 .hr-footer{
    width: 1200px; 
    color: rgb(157, 157, 157);
-   margin: 0 auto;
+   margin: 30px auto 0;
    opacity: 0.3;
 }
 
@@ -705,6 +710,10 @@ h1{
         right: 753px
     }
 
+    .footer-botton li{
+        margin: 16px 48px 0 -15px;
+    }
+
     .top-slide-left h2, .top-slide-right h2{
         max-width: 696px;
     }
@@ -898,6 +907,10 @@ h1{
     .footer-botton ul{
         display: block;
         margin-left: 19.5px;
+    }
+
+    .footer-botton li{
+        margin: 16px 48px 0 0 ;
     }
 
     .hr-footer{
